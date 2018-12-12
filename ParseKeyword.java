@@ -26,7 +26,7 @@ public class ParseKeyword
     private String[] no = {"no"};
     private String[] noAns = {"alright my bad", "nevermind then", "alright, I'll stop then"};
 
-    private String[] bell = {"bell", "rings"};
+    private String[] bell = {"bell", "ring", "start"};
     private String[] bellAns = {"check it on the website", "what per?"};
 
     private String[] per = {"1"};

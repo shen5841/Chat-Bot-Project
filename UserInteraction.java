@@ -1,9 +1,6 @@
-
 /**
- * Write a description of class UserInput here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * The UserInteraction class utilizes a main() method to run the chat bot, and take user input
+ * the while loop inside the main() medthod kept on receiving user responses, until the user says "stop"
  */
 import java.util.Scanner;
 

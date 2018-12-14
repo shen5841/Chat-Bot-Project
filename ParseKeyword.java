@@ -1,9 +1,11 @@
 
 /**
- * Write a description of class ParseKeyword here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * the ParseKeyword class utilizes the keywords arraylist to find the keywords, 
+ * and uses the index to match it up with a set of random responses inside the anwer arraylist
+ * the keywords, and answer are arraylists of arrays
+ * the KeyToAnswer() method takes the entire user response, and uses for loops to try to find the matching responses in the keywords arraylist
+ * each time a new ParseKeyword object is created, the string arrays will be added to the keywords and answer arraylist using the ParseKeyword() constructor
+ * the order in which you add the arrays into keywords arraylist will be the priority if there were multiple keywords in a sentence
  */
 import java.util.*;
 import java.util.Random;

@@ -57,6 +57,13 @@ public class ParseKeyword
     
     private String[] club = {"club", "clubs"};
     private String[] clubAns = {"2SERVE", "Fighting Game Club", "Helping Hand", "Improv Club", "HUB Club", "Internship Club", "Magic Club", "Video Production Club", "Speech & Debate Club", "Math Club", "Girls Who Code", "Engineering Club", "Enviro Tech Club", "Economics Club", "Dublin High School Art Club"};
+    
+    private String[] favoriteTeacher = {"teacher", "who"};
+    private String[] favoriteTeacherAns = {"Mr. Kaehms"};
+    
+    private String[] eat = {"eat", "have", "options"};
+    private String[] eatAns = {"Popcorn Chicken Platter", "Veggie Nugget Basket", "Chicken Wings of Fire", "Buffalo Chicken Salad", "Share tea", "Jack in the box", "School lunch is bad"};
+    
     public ParseKeyword () {
         //add in keywords in order from most important, to least important
         //this way if you have two key words in the same sentence, one will overwrite the other
@@ -74,6 +81,8 @@ public class ParseKeyword
         keywords.add(per7);
         keywords.add(lunch);
         keywords.add(club);
+        keywords.add(favoriteTeacher);
+        
         //make sure the answer array matches up with the index of the keywords array
         answer.add(moodyAns);
         answer.add(noAns);
@@ -89,6 +98,7 @@ public class ParseKeyword
         answer.add(per7Ans);
         answer.add(lunchAns);
         answer.add(clubAns);
+        answer.add(favoriteTeacherAns);
     }
     
     
